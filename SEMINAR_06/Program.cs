@@ -119,34 +119,34 @@
         //y = k1 * x + b1, y = k2 * x + b2; значения b1, k1, b2 и k2 задаются пользователем.
         //b1 = 2, k1 = 5, b2 = 4, k2 = 9-> (-0, 5; -0,5)
 
-        float y;
-        float x;
-        float b1;
-        float k1;
-        float b2;
-        float k2;
-        Console.Write("Заполните значения первого отрезка: \n");
-        Console.Write("b1: ");
-        float.TryParse(Console.ReadLine(), out b1);
-        Console.Write("k1: ");
-        float.TryParse(Console.ReadLine(), out k1);
-        Console.Write("Заполните значения первого отрезка: \n");
-        Console.Write("b2: ");
-        float.TryParse(Console.ReadLine(), out b2);
-        Console.Write("k2: ");
-        float.TryParse(Console.ReadLine(), out k2);
+        //float y;
+        //float x;
+        //float b1;
+        //float k1;
+        //float b2;
+        //float k2;
+        //Console.Write("Заполните значения первого отрезка: \n");
+        //Console.Write("b1: ");
+        //float.TryParse(Console.ReadLine(), out b1);
+        //Console.Write("k1: ");
+        //float.TryParse(Console.ReadLine(), out k1);
+        //Console.Write("Заполните значения первого отрезка: \n");
+        //Console.Write("b2: ");
+        //float.TryParse(Console.ReadLine(), out b2);
+        //Console.Write("k2: ");
+        //float.TryParse(Console.ReadLine(), out k2);
 
-        if (b2 == b1 || k1 == k2)
-        {
-            Console.WriteLine("Отрезки не пересекаются");
-        }
-        else
-        {
-            x = (b2 - b1) / (k1 - k2);
-            y = k1 * x + b1;
+        //if (b2 == b1 || k1 == k2)
+        //{
+        //    Console.WriteLine("Отрезки не пересекаются");
+        //}
+        //else
+        //{
+        //    x = (b2 - b1) / (k1 - k2);
+        //    y = k1 * x + b1;
 
-            Console.WriteLine($"Точка пересечения отрезков ({x}, {y})");
-        }
+        //    Console.WriteLine($"Точка пересечения отрезков ({x}, {y})");
+        //}
 
         #endregion
 
